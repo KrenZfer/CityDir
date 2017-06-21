@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CityDir</string>
+    <string name="auth_failed">Authentication was Failed</string>
+    <string name="data_empty">Data is Empty</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps_input">Map</string>
+</resources>

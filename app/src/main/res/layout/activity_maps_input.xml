@@ -1,0 +1,52 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:id="@+id/voew_detail"
+    android:background="@color/backgroundColor">
+
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mapsActivityInput"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.citydir.krenzfer.citydir.View.MapsActivityInput" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:id="@+id/button"
+        android:layout_gravity="right|top"
+        android:onClick="refresh"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Baru"
+        android:id="@+id/button2"
+        android:layout_gravity="left|top"
+        />
+
+    <TextView
+        android:id="@+id/teksSyncOnce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="86dp" />
+
+    <TextView
+        android:id="@+id/teksSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btUpdate"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="21dp" />
+
+</FrameLayout>
+
+
